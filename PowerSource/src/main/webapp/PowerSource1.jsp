@@ -7,6 +7,7 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 <link rel="stylesheet" href="Views/bootstrap.min.css">
+<link rel="stylesheet" href="Views/design.css">
 <script src="Components/jquery-3.4.1.min.js"></script>
 <script src="Components/powersource1.js"></script>
 </head>
@@ -22,29 +23,30 @@
 						Power Source Name: <input id="pName" name="pName" type="text"
 						class="form-control form-control-sm"> 
 						
-						<br>PowerSource Address: <input id=address name="address" type="text"
+						<br>Power Source Address: <input id=address name="address" type="text"
 						class="form-control form-control-sm"> 
 						
 						<br>Province: <input id=province name="province" type="text"
 						class="form-control form-control-sm"> 
 						
-						<br>Type of power source: <input id="powerSourceType" name="powerSourceType" type="text" class="form-control form-control-sm">
+						<br>Type of power source: <input id="powerSourceType" name="powerSourceType" type="text" class="form-control form-control-sm"
+						placeholder="eg : Renewable or Non-renewable">
 					
 						
 						
-						<br> Power generated: <input id="power" name="power" type="text"
+						<br> Power generated (Mw): <input id="power" name="power" type="text"
 						class="form-control form-control-sm">
 						
 						<br> Maintenance Day: <input id="mDay" name="mDay" type="text"
-						class="form-control form-control-sm">
+						class="form-control form-control-sm" placeholder="dd-mm-yyyy">
 						
 						<br> Employee ID of head engineer: <input id="engID" name="engID" type="text"
 						class="form-control form-control-sm">
 						
 						
 						
-						<br> <input id="btnSave" name="btnSave" type="button" value="Save" 
-						class="btn btn-primary"> <input type="hidden"
+						<br> <center><input id="btnSave" name="btnSave" type="button" value="Save" 
+						class="btn btn-primary"></center> <input type="hidden"
 						id="hidPowerIDSubmit" name="hidPowerIDSubmit" value="">
 				</form>
 

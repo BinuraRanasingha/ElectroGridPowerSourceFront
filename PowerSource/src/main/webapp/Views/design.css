@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+
+
+
+
+body
+{
+	background : #635e5e;
+	color : white;
+}
+
+buttons
+{
+	cursor : pointer;
+}
+
+table
+{
+	color : white;
+	background : black;
+}
+
+#btnSave
+{
+	width:100px;
+}
+
+#alertSuccess,#alertError
+{
+	margin-top:10px;
+}
